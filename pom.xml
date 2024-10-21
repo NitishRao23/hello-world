@@ -20,7 +20,6 @@
     </properties>
 
     <modules>
-        <module>server</module>
         <module>webapp</module>
     </modules>
 
@@ -139,6 +138,13 @@
                 <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter-engine</artifactId>
                 <version>5.8.2</version>
+                <scope>test</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit-dep</artifactId>
+                <version>4.12</version> <!-- Added this dependency -->
                 <scope>test</scope>
             </dependency>
 
